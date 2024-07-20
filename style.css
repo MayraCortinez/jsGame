@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    overflow: hidden;
 }
 
 body {
@@ -108,4 +109,26 @@ button {
 .texto__parrafo {
     font-size: 32px;
     font-weight: 400;
+}
+
+/* Media queries */
+
+@media (max-width: 1069px) {
+    h1{font-size: 56px;}
+    .container{
+        margin-left: 6px;
+        margin-right: 6px;}
+}
+
+@media (max-width: 984px) {
+    h1{font-size: 52px;}
+    .container{
+        margin-left: 6px;
+        margin-right: 6px;}
+}
+
+
+@media (max-width: 576px) {
+   h1{font-size: 48px;}
+
 }
